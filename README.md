@@ -1,6 +1,6 @@
 # cloudwatch_logs_to_discord
 
-`CloudWatch Log`のLambdaサブスクリプションフィルターから受け取ったログをWebhookでDiscordのチャンネルに送るAWS Lambda関数
+`CloudWatch Logs`のLambdaサブスクリプションフィルターから受け取ったログをWebhookでDiscordのチャンネルに送るAWS Lambda関数
 
 ![cloudwatch.png](./doc/image/cloudwatch.png)
 
@@ -42,7 +42,7 @@ $ zip cloudwatch_logs_to_discord.zip cloudwatch_logs_to_discord
 
 作成後、先ほど作成したzipファイルをアップロード
 
-### Create CloudWatch Log Subscription Filter
+### Create CloudWatch Logs Subscription Filter
 
 `CloudWatch` => `Log groups`
 
