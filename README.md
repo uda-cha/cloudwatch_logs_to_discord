@@ -1,6 +1,6 @@
 # cloudwatch_logs_to_discord
 
-`CloudWatch Log`のLambdaサブスクリプションフィルターから受け取ったログをWebhookでDiscordのチャンネルに送るlambda関数
+`CloudWatch Log`のLambdaサブスクリプションフィルターから受け取ったログをWebhookでDiscordのチャンネルに送るAWS Lambda関数
 
 ![cloudwatch.png](./doc/image/cloudwatch.png)
 
@@ -26,8 +26,8 @@ https://discord.com/api/webhooks/{webhook.id}/{webhook.token}
 ### Build and packaging
 
 ```sh
-GOOS=linux go build cloudwatch_logs_to_discord.go
-zip cloudwatch_logs_to_discord.zip cloudwatch_logs_to_discord
+$ GOOS=linux go build cloudwatch_logs_to_discord.go
+$ zip cloudwatch_logs_to_discord.zip cloudwatch_logs_to_discord
 ```
 
 ### Deploy to AWS Lambda
